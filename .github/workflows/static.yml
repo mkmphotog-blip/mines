@@ -1,0 +1,143 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SD Mines – MEng Systems Engineering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style type="text/css">body { margin: 0; padding: 0; background: #f4f6f9; font-family: 'Open Sans', Arial, sans-serif; }
+  .em-wrap { padding: 32px 16px; }
+  .em-outer { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 8px; overflow: hidden; border: 1px solid #dde2ea; }
+
+  /* Header */
+  .em-header { background: #002445; padding: 28px 40px; text-align: left; }
+  .em-logo-placeholder { display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 48px;}
+  .em-logo-placeholder span { color: rgba(255,255,255,0.4); font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; }
+  .em-header h1 { color: #ffffff; font-size: 22px; font-weight: 700; line-height: 1.3; margin: 0; }
+  .em-header-sub { color: rgba(255,255,255,0.65); font-size: 13px; margin-top: 6px; font-weight: 400; }
+
+  /* Body */
+  .em-body { padding: 36px 40px 28px; }
+  .em-greeting { font-size: 15px; color: #1a2a3a;  margin: 0 0 16px; }
+  .em-p { font-size: 15px; color: #3a4a5a; line-height: 1.75; margin: 0 0 16px; }
+  .em-p strong { color: #002445; font-weight: 600; }
+
+  /* Highlight block */
+  .em-highlight { background: #f0f4f8; border-left: 3px solid #002445; border-radius: 0 6px 6px 0; padding: 16px 20px; margin: 20px 0; }
+  .em-highlight p { font-size: 14px; color: #1a2a3a; line-height: 1.7; margin: 0; }
+  .em-highlight strong { color: #002445; font-weight: 600; }
+
+  /* Bullets */
+  .em-bullets { list-style: none; padding: 0; margin: 0 0 20px; }
+  .em-bullets li { font-size: 14px; color: #3a4a5a; line-height: 1.65; padding: 6px 0 6px 20px; position: relative; border-bottom: 1px solid #f0f2f5; }
+  .em-bullets li:last-child { border-bottom: none; }
+  .em-bullets li::before { content: ''; position: absolute; left: 0; top: 14px; width: 7px; height: 7px; border-radius: 50%; background: #002445; }
+  .em-bullets li strong { color: #002445; font-weight: 600; }
+
+  /* CTA */
+  .em-cta-wrap { text-align: center; margin: 28px 0 8px; }
+  .em-cta { display: inline-block; background: #002445; color: #ffffff; font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; padding: 13px 32px; border-radius: 6px; text-decoration: none; letter-spacing: 0.02em; }
+  .em-cta-note { text-align: center; font-size: 12px; color: #8a96a2; margin-top: 10px; }
+
+  /* Divider */
+  .em-divider { border: none; border-top: 1px solid #eef0f3; margin: 28px 0; }
+
+  /* Signature */
+  .em-sig { font-size: 14px; color: #3a4a5a; line-height: 1.7; }
+  .em-sig strong { color: #002445; font-weight: 600; font-size: 15px; }
+  .em-sig .title { color: #5a6a7a; font-size: 13px; }
+
+  /* Footer */
+  .em-footer { background: #002445; padding: 20px 40px; text-align: center; }
+  .em-footer p { color: rgba(255,255,255,0.55); font-size: 11px; line-height: 1.6; margin: 0; }
+  .em-footer a { color: rgba(255,255,255,0.75); text-decoration: none; }
+  .em-footer .footer-links { margin-bottom: 8px; }
+  .em-footer .footer-links a { margin: 0 8px; font-size: 12px; font-weight: 500; color: rgba(255,255,255,0.8); }
+    </style>
+  </head>
+  <body>
+    <div class="em-wrap">
+      <div class="em-outer">
+        <!-- Header -->
+        <div class="em-header">
+          <!-- Replace the div below with: <img src="your-logo.png" alt="South Dakota Mines" width="160" height="48"> -->
+          <div class="em-logo-placeholder">
+            <span><img alt="" src="https://apply.sdsmt.edu/www/images/02-SouthDakotaMinesLogo_Secondary_StackedCenter_White.png" style="width: 100%;" /></span>
+          </div>
+
+          <h1>
+            <br />
+            Your next step starts here.
+          </h1>
+
+          <div class="em-header-sub">
+            Master of Engineering — Systems Engineering · Multiple Start Dates
+          </div>
+        </div>
+        <!-- Body -->
+
+        <div class="em-body">
+          <p class="em-greeting">
+            Hi {{Preferred}},
+          </p>
+
+          <p class="em-p">
+            Thank you for your interest in the <a href="https://sdsmt.edu/MENG"><span style="color:#385e9d;"><strong>Master of Engineering in Systems Engineering</strong></span></a> at South Dakota Mines.&nbsp;Designed for working professionals, this program helps you develop the skills to lead complex projects, improve processes, and solve real-world engineering challenges, without putting your career on hold.
+          </p>
+
+          <p class="em-p">
+            Here's what to expect from the program:
+          </p>
+
+          <ul class="em-bullets">
+            <li>
+              <strong>Learn from Leaders in the Field</strong> — Learn from faculty with deep industry experience and expertise in solving complex engineering challenges.
+            </li>
+            <li>
+              <strong>Work-Based Learning</strong> — Apply coursework directly to projects and challenges in your workplace, allowing you to create value for your organization while earning your degree.
+            </li>
+            <li>
+              <strong>30 Credits, 100% Online —</strong> Complete your degree from anywhere while continuing to work full time.<strong></strong>
+            </li>
+            <li>
+              <strong>Multiple start dates</strong> —New cohorts begin throughout the year, starting in January 2027.
+            </li>
+          </ul>
+
+          <div class="em-highlight">
+            <p>
+              <strong>Ready to apply?</strong> Click below to start your application. It only takes a few minutes to complete.
+            </p>
+          </div>
+
+          <div class="em-cta-wrap">
+            <strong><a class="em-cta" href="https://sdsmt.edu/MENG"><span style="color:#ffffff;">Start Your Application</span></a></strong>
+          </div>
+
+          <p class="em-cta-note">
+          </p>
+
+          <hr class="em-divider" />
+          <div class="em-sig">
+            <strong>Darcy Briggs, Ph.D.</strong><br />
+            <span class="title"><i>Associate Vice President for Academic Affairs</i><br />
+            Academic Affairs</span><br />
+            <span class="title">South Dakota Mines</span><br />
+            <br />
+            <span class="title" style="margin-top:4px; display:block;">605.394.2399 &nbsp;·&nbsp; Education.Innovation@sdsmt.edu</span>
+          </div>
+        </div>
+        <!-- Footer -->
+
+        <div class="em-footer">
+          <div class="footer-links">
+            <a href="https://sdsmt.edu/MENG">Program Info</a><a href="mailto:Education.Innovation@sdsmt.edu">Contact Us</a>
+          </div>
+
+          <p>
+            South Dakota School of Mines &amp; Technology · 501 E St. Joseph St., Rapid City, SD 57701<br />
+            © 2026 South Dakota Mines. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
